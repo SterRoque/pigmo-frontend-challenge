@@ -1,44 +1,36 @@
-## Frontend Challenge - PIGMO
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### Description
-Welcome to the PIGMO front end challenge! We want to test your skills in Next.js, Styled Systems and PandaCSS, replicating our Figma home page pixel by pixel.
+## Getting Started
 
-### Goal
-The objective of this challenge is to recreate a simplified home page of our platform according to the design in Figma. The focus should be on visual precision and responsiveness, ensuring that the end result is as faithful as possible to the original design.
+First, run the development server:
 
-### Instructions
-* Fork this repository to your GitHub account.
-* Clone the repository to your local machine.
-* Create a new branch with your name: git checkout -b your-name.
-* Complete the challenge as per the specifications below.
-* Open a Pull Request for the main branch of this repository with your solution.
-* Add a brief description of what you did in the Pull Request.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Technical specifications
-### Requirements
-* Use Next.js for project structure.
-* Use Styled Systems and PandaCSS to style components.
-* The page must be responsive, adapting well to different screen sizes (mobile, tablet, desktop).
-* All styles must be implemented using Styled Systems and PandaCSS.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Design
-* Design is available on [Figma](https://www.figma.com/design/pTGAVBT2oka2f2IFIL8Nv3/Pigmo-Home-Page?node-id=0-1&t=mW85fPqtR6UshZfj-0).
-* Replicate the home page as per the given design.
-* Feel free to add any features you feel are necessary to improve user experience or code quality.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### Delivery
-* Ensure your code is clean and well documented.
-* The project must be easily executable following the steps described below.
-* Include a README.md file in the project root directory with instructions on how to run the project locally and any other information you consider relevant.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Assessment
-Assessment criteria include:
+## Learn More
 
-* Design fidelity: How close your result is to the original design in Figma.
-* Code quality: Cleanliness, organization and good practices.
-* Responsiveness: The page adapts well to different devices.
-* Use of Styled Systems and PandaCSS: Proper use of these technologies for styling.
-Boa sorte e estamos ansiosos para ver sua solução!
+To learn more about Next.js, take a look at the following resources:
 
-### Contact
-If you have any questions, feel free to get in touch via email: team@pigmo.com.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
